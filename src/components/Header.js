@@ -1,7 +1,17 @@
 import React from 'react';
 import styled from 'styled-components'
+import { auth, provider} from '../firebase'
 
 function Header() {
+
+    const handleAuth = () => {
+        auth.signInWithPopup(provider).then((result) => {
+            console.log(result)
+        }).catch((error) => {
+            alert(error.message)
+        })
+    }
+
     return (
         <Nav>
             <Logo src="/images/logo.svg" />
@@ -38,7 +48,7 @@ function Header() {
 
 
             </NavMenu>
-            <UserImg src="/images/me.jpeg"/>
+            <UserImg onclick={handleAuth} src="/images/me.jpeg"/>
 
         
         </Nav>
