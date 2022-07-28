@@ -10,7 +10,7 @@ function Login() {
                 GET ALL THERE
             </SignUp>
             <Description>
-                Put whatever I want into here. Put whatever I want into here. ut whatever I want into here. ut whatever I want into here. ut whatever I want into here. ut whatever I want into here. ut whatever I want into here. 
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pretium enim et arcu condimentum, id dapibus nibh interdum. Praesent semper libero ligula, sed scelerisque purus dignissim nec. 
             </Description>
             <CTALogoTwo src="/images/cta-logo-two.png"/>
         </CTA>
