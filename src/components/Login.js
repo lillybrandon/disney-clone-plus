@@ -7,7 +7,7 @@ function Login() {
         <CTA>
             <CTALogoOne src="/images/cta-logo-one.svg" />
             <SignUp>
-                GET ALL THERE
+                GET ALL HERE
             </SignUp>
             <Description>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pretium enim et arcu condimentum, id dapibus nibh interdum. Praesent semper libero ligula, sed scelerisque purus dignissim nec. 
